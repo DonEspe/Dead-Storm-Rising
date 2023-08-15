@@ -9,24 +9,30 @@
 /* Begin PBXBuildFile section */
 		FEBB7A3F2A8B3636001B0BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */; };
 		FEBB7A412A8B3636001B0BF6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A402A8B3636001B0BF6 /* GameScene.sks */; };
-		FEBB7A432A8B3636001B0BF6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A422A8B3636001B0BF6 /* Actions.sks */; };
 		FEBB7A452A8B3636001B0BF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB7A442A8B3636001B0BF6 /* GameScene.swift */; };
 		FEBB7A472A8B3636001B0BF6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB7A462A8B3636001B0BF6 /* GameViewController.swift */; };
 		FEBB7A4A2A8B3636001B0BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A482A8B3636001B0BF6 /* Main.storyboard */; };
 		FEBB7A4C2A8B3639001B0BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A4B2A8B3639001B0BF6 /* Assets.xcassets */; };
 		FEBB7A4F2A8B3639001B0BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A4D2A8B3639001B0BF6 /* LaunchScreen.storyboard */; };
+		FEBB7A562A8B39F5001B0BF6 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A552A8B39F5001B0BF6 /* TileSet.sks */; };
+		FED945F82A8B456A00296FEF /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945F72A8B456A00296FEF /* GameItem.swift */; };
+		FED945FA2A8B45A000296FEF /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945F92A8B45A000296FEF /* Unit.swift */; };
+		FED945FC2A8B45BC00296FEF /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945FB2A8B45BC00296FEF /* Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FEBB7A3B2A8B3636001B0BF6 /* Dead Storm Rising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dead Storm Rising.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBB7A402A8B3636001B0BF6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FEBB7A422A8B3636001B0BF6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FEBB7A442A8B3636001B0BF6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FEBB7A462A8B3636001B0BF6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FEBB7A492A8B3636001B0BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEBB7A4B2A8B3639001B0BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEBB7A4E2A8B3639001B0BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBB7A552A8B39F5001B0BF6 /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
+		FED945F72A8B456A00296FEF /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		FED945F92A8B45A000296FEF /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		FED945FB2A8B45BC00296FEF /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,14 @@
 			children = (
 				FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */,
 				FEBB7A402A8B3636001B0BF6 /* GameScene.sks */,
-				FEBB7A422A8B3636001B0BF6 /* Actions.sks */,
 				FEBB7A442A8B3636001B0BF6 /* GameScene.swift */,
+				FED945F72A8B456A00296FEF /* GameItem.swift */,
+				FED945F92A8B45A000296FEF /* Unit.swift */,
+				FED945FB2A8B45BC00296FEF /* Base.swift */,
 				FEBB7A462A8B3636001B0BF6 /* GameViewController.swift */,
 				FEBB7A482A8B3636001B0BF6 /* Main.storyboard */,
 				FEBB7A4B2A8B3639001B0BF6 /* Assets.xcassets */,
+				FEBB7A552A8B39F5001B0BF6 /* TileSet.sks */,
 				FEBB7A4D2A8B3639001B0BF6 /* LaunchScreen.storyboard */,
 			);
 			path = "Dead Storm Rising";
@@ -132,8 +141,8 @@
 				FEBB7A4A2A8B3636001B0BF6 /* Main.storyboard in Resources */,
 				FEBB7A412A8B3636001B0BF6 /* GameScene.sks in Resources */,
 				FEBB7A4C2A8B3639001B0BF6 /* Assets.xcassets in Resources */,
+				FEBB7A562A8B39F5001B0BF6 /* TileSet.sks in Resources */,
 				FEBB7A4F2A8B3639001B0BF6 /* LaunchScreen.storyboard in Resources */,
-				FEBB7A432A8B3636001B0BF6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED945FC2A8B45BC00296FEF /* Base.swift in Sources */,
+				FED945FA2A8B45A000296FEF /* Unit.swift in Sources */,
 				FEBB7A452A8B3636001B0BF6 /* GameScene.swift in Sources */,
 				FEBB7A472A8B3636001B0BF6 /* GameViewController.swift in Sources */,
+				FED945F82A8B456A00296FEF /* GameItem.swift in Sources */,
 				FEBB7A3F2A8B3636001B0BF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +318,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +347,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
