@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1924412A8C60140076CA1C /* SmallSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE1924402A8C60140076CA1C /* SmallSmoke.sks */; };
+		FE1924432A8C705F0076CA1C /* tank_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1924422A8C705F0076CA1C /* tank_blue.png */; };
+		FE1924452A8C77740076CA1C /* ShotSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE1924442A8C77730076CA1C /* ShotSmoke.sks */; };
 		FEBB7A3F2A8B3636001B0BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */; };
 		FEBB7A412A8B3636001B0BF6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEBB7A402A8B3636001B0BF6 /* GameScene.sks */; };
 		FEBB7A452A8B3636001B0BF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB7A442A8B3636001B0BF6 /* GameScene.swift */; };
@@ -18,9 +21,16 @@
 		FED945F82A8B456A00296FEF /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945F72A8B456A00296FEF /* GameItem.swift */; };
 		FED945FA2A8B45A000296FEF /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945F92A8B45A000296FEF /* Unit.swift */; };
 		FED945FC2A8B45BC00296FEF /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945FB2A8B45BC00296FEF /* Base.swift */; };
+		FED945FE2A8BCA4400296FEF /* CGPoint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945FD2A8BCA4400296FEF /* CGPoint+Additions.swift */; };
+		FED946002A8BCFD900296FEF /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED945FF2A8BCFD900296FEF /* Array+Additions.swift */; };
+		FED946042A8C103A00296FEF /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = FED946032A8C103A00296FEF /* Smoke.sks */; };
+		FED946062A8C105200296FEF /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = FED946052A8C105200296FEF /* Fire.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE1924402A8C60140076CA1C /* SmallSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmallSmoke.sks; sourceTree = "<group>"; };
+		FE1924422A8C705F0076CA1C /* tank_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tank_blue.png; path = Assets.xcassets/Sprites.spriteatlas/tank_blue.png; sourceTree = "<group>"; };
+		FE1924442A8C77730076CA1C /* ShotSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShotSmoke.sks; sourceTree = "<group>"; };
 		FEBB7A3B2A8B3636001B0BF6 /* Dead Storm Rising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dead Storm Rising.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBB7A402A8B3636001B0BF6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -33,6 +43,10 @@
 		FED945F72A8B456A00296FEF /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
 		FED945F92A8B45A000296FEF /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		FED945FB2A8B45BC00296FEF /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		FED945FD2A8BCA4400296FEF /* CGPoint+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Additions.swift"; sourceTree = "<group>"; };
+		FED945FF2A8BCFD900296FEF /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
+		FED946032A8C103A00296FEF /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		FED946052A8C105200296FEF /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +82,19 @@
 				FEBB7A3E2A8B3636001B0BF6 /* AppDelegate.swift */,
 				FEBB7A402A8B3636001B0BF6 /* GameScene.sks */,
 				FEBB7A442A8B3636001B0BF6 /* GameScene.swift */,
+				FED945FF2A8BCFD900296FEF /* Array+Additions.swift */,
+				FED945FD2A8BCA4400296FEF /* CGPoint+Additions.swift */,
 				FED945F72A8B456A00296FEF /* GameItem.swift */,
 				FED945F92A8B45A000296FEF /* Unit.swift */,
 				FED945FB2A8B45BC00296FEF /* Base.swift */,
 				FEBB7A462A8B3636001B0BF6 /* GameViewController.swift */,
 				FEBB7A482A8B3636001B0BF6 /* Main.storyboard */,
 				FEBB7A4B2A8B3639001B0BF6 /* Assets.xcassets */,
+				FE1924422A8C705F0076CA1C /* tank_blue.png */,
+				FED946032A8C103A00296FEF /* Smoke.sks */,
+				FE1924402A8C60140076CA1C /* SmallSmoke.sks */,
+				FE1924442A8C77730076CA1C /* ShotSmoke.sks */,
+				FED946052A8C105200296FEF /* Fire.sks */,
 				FEBB7A552A8B39F5001B0BF6 /* TileSet.sks */,
 				FEBB7A4D2A8B3639001B0BF6 /* LaunchScreen.storyboard */,
 			);
@@ -138,11 +159,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1924432A8C705F0076CA1C /* tank_blue.png in Resources */,
+				FE1924452A8C77740076CA1C /* ShotSmoke.sks in Resources */,
 				FEBB7A4A2A8B3636001B0BF6 /* Main.storyboard in Resources */,
+				FED946042A8C103A00296FEF /* Smoke.sks in Resources */,
 				FEBB7A412A8B3636001B0BF6 /* GameScene.sks in Resources */,
 				FEBB7A4C2A8B3639001B0BF6 /* Assets.xcassets in Resources */,
+				FED946062A8C105200296FEF /* Fire.sks in Resources */,
 				FEBB7A562A8B39F5001B0BF6 /* TileSet.sks in Resources */,
 				FEBB7A4F2A8B3639001B0BF6 /* LaunchScreen.storyboard in Resources */,
+				FE1924412A8C60140076CA1C /* SmallSmoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED945FC2A8B45BC00296FEF /* Base.swift in Sources */,
+				FED946002A8BCFD900296FEF /* Array+Additions.swift in Sources */,
 				FED945FA2A8B45A000296FEF /* Unit.swift in Sources */,
+				FED945FE2A8BCA4400296FEF /* CGPoint+Additions.swift in Sources */,
 				FEBB7A452A8B3636001B0BF6 /* GameScene.swift in Sources */,
 				FEBB7A472A8B3636001B0BF6 /* GameViewController.swift in Sources */,
 				FED945F82A8B456A00296FEF /* GameItem.swift in Sources */,
@@ -316,8 +344,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duckyplanet.Dead-Storm-Rising";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -345,8 +376,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,9 +386,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duckyplanet.Dead-Storm-Rising";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
