@@ -107,7 +107,7 @@ class GameScene: SKScene {
             let unit = Unit(imageNamed: "tank_blue")
             unit.owner = .blue
 
-            unit.position = CGPoint(x: -128 + (i * 64), y: 704) // y: 704
+            unit.position = CGPoint(x: -128 + (i * 64), y: 704)
 
             unit.zPosition = zPositions.unit
 
